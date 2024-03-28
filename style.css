@@ -263,10 +263,7 @@
 
 
 /* Default styles */
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
+
   
   .col-3 {
     flex: 0 0 auto;
