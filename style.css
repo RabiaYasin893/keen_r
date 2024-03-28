@@ -839,20 +839,33 @@ form {
         font-size: 14px; /* Adjust as needed */
         justify-content: center;
     }
-    h1 {
-        font-size: 24px; /* Adjust as needed */
-        text-align: center;
+   h1 {
+        font-size: 18px; /* Adjust as needed */
+        text-align: left;
+        overflow: hidden;
+        padding: 4px;
     }
     h2 {
-        font-size: 20px; /* Adjust as needed */
-        text-align: center;
+        font-size: 18px; /* Adjust as needed */
+        text-align: left;
+        overflow: hidden;
+        padding: 4px;
     }
     h3 {
         font-size: 18px; /* Adjust as needed */
-        text-align: center;
+        text-align: left;
+        overflow: hidden;
+        padding: 4px;
+    }
+    h6 {
+        font-size: 18px; /* Adjust as needed */
+        text-align: left;
+        overflow: hidden;
+        padding: 4px;
     }
     p {
         font-size: 14px; /* Adjust as needed */
-        text-align: center;
+        text-align: left;
+        overflow: hidden;
     }
 }
