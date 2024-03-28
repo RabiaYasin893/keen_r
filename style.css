@@ -1,6 +1,6 @@
 body{
-    overflow: auto;
-    margin: 0;
+    overflow: hidden;
+    margin: 2px
 }
 #Offer{
     font-family: Outfit, sans-serif;
@@ -25,37 +25,18 @@ body{
         z-index: 2;
         box-shadow: 0 4px 5px rgba(0,0,0,.14), 0 1px 10px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.2);
      }
-     #navbarNav1{
-        display: flex;
-        justify-content: center;
-        color: black;
-    }
-
-    #navbarNav2{
-        padding: 10px 16px;
-    }
-
-    #navbarNav3{
-    background-color: transparent;
-    border: 1px solid#e5ae5e;
-     color: #6a1b4a;
-
     
-    }
-   option a:hover{
+   .navbar a:hover{
         background-color: #e5ae5e;
+        color: #000000;
+
     }
 
     .fa-search{
          color: #6a1b4a;
 
     }
-    #navbarNav4{
-        background-color: #e5ae5e;
-        border: 1px solid #286851;
-        color: #000000;
-        
-        }
+
  #section1{
     background-color: #fff2c8;
         height: 200px;
@@ -380,22 +361,6 @@ body{
     .footer {
         padding: 20px; /* Add padding to footer content */
         text-align: center; /* Center-align footer content */
-    }
-}
-@media (max-width: 768px) {
-    .image-item {
-        width: 100%;
-    }
-}
-@media (max-width: 576px) {
-    .navbar-nav {
-        flex-direction: column;
-    }
-    .navbar-nav .nav-item {
-        margin-bottom: 0.5rem;
-    }
-    .collapse.show {
-        margin-top: 1rem;
     }
 }
 
@@ -764,48 +729,7 @@ body{
 .why-add-payment-container .wont-be-charged {
     font-size: 12px;
 }
-/* .payment-details-container .payment-methods-container {
-    margin-bottom: 20px;
-}
-.payment-details-container .payment-methods-container .payment-method-credit-card-container {
-    display: inline-block;
-    padding-right: 0;
-}
-.col-xs-6 {
-    width: 50%;
-}
 
-.payment-details-container .payment-methods-container .payment-method-credit-card-container .btn-credit-card.selected {
-    border-bottom: 2px solid #286851;
-}
-.payment-details-container .payment-methods-container .payment-method-credit-card-container .btn-credit-card {
-    width: 100%;
-    height: 49px;
-    padding: 12px;
-    background-color: #FFF;
-     color: #6a1b4a;
-
-    border-radius: 0;
-    border: none;
-    border-bottom: 2px solid #F3F3F3;
-}
-
-.payment-details-container .payment-methods-container .payment-method-paypal-container {
-    display: inline-block;
-    padding-left: 0;
-}
-.col-xs-6 {
-    width: 50%;
-}
- */
-
- #payment-container{
-    width: 100%;
-    border: 1px solid;
-    border-color: gray;
-    /* height: 300px; */
-    padding: 38px;
-}
 /* form */
 
 .layout-row, md-menu-item {
@@ -861,11 +785,7 @@ header {
 }
 
 /* Styles for navbar */
-.navbar {
-    width: 100%;
-    height: 60px;
-    padding: 10px;
-}
+
 
 /* Styles for images */
 img {
