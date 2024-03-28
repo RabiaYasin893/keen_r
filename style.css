@@ -13,9 +13,7 @@
         margin-right: -15px;
         margin-left: -15px;
     }
-    .container{
-        overflow: hidden;
-    }
+   
 #navbarNav{
       display: flex;
         align-items: center;
@@ -769,6 +767,12 @@
 header {
     width: 100%;
 
+}
+    .three-dots-cards {
+    margin-left: 270px;
+    margin-top: 10px;
+    font-size: 25px;
+    position: absolute;
 }
 
 /* Styles for card */
