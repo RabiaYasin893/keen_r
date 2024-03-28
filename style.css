@@ -834,3 +834,91 @@ body{
     background-color: #fff2c8;
     height: 300px;
 }
+
+
+/* Mobile view */
+@media (max-width: 575.98px){ 
+
+    /* Styles for mobile */
+
+/* Styles for header */
+header {
+    width: 100%;
+    height: 80px;
+
+    text-align: center;
+    line-height: 80px;
+}
+
+/* Styles for card */
+.card {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Styles for navbar */
+.navbar {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+}
+
+/* Styles for images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles for form */
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles for buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    
+}
+
+/* Tablet view */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Styles for tablet */
+}
+
+/* Laptop view */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Styles for laptop */
+}
+
+/* Desktop view */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Styles for desktop */
+}
+
+/* Large desktop view */
+@media (min-width: 1200px) {
+    /* Styles for large desktop */
+}
+
+
+/* Styles for horizontal rule */
+hr {
+    width: 100%;
+    height: 1px;
+   
+    border: none;
+    margin: 20px 0;
+}
