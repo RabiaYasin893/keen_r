@@ -265,13 +265,13 @@
 
     }
 .three-dots-cards {
-    /* margin-left: 270px; */
+    margin-left: 270px;
     margin-top: 10px;
-    /* font-size: 25px; */
-    position: absolute;
-    right: 5px;
-}
+    font-size: 25px;
 
+    position: absolute;
+    left: -69px;
+}
 /* Default styles */
 
   
