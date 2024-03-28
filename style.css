@@ -264,7 +264,7 @@
 
 
     }
-.three-dots-cards {
+#three-dots-cards {
     margin-left: 270px;
     margin-top: 10px;
     font-size: 25px;
@@ -482,7 +482,7 @@
     background-color: #e5ae5e;
     color: #050505;
 }
-   .three-dots-cards{
+   #three-dots-cards{
        margin-left: 270px;
        margin-top: 10px;
        font-size: 25px;
