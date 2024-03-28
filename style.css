@@ -9,7 +9,13 @@
     position: relative;
     padding: 2px;
 }
-
+ .row{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .container{
+        overflow: hidden;
+    }
 #navbarNav{
       display: flex;
         align-items: center;
